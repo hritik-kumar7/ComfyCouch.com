@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
+*{   
+    /* applicable for all html elements */
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+}
+footer{
+     height: 12vh;
+    background-color: black;
+    color: blanchedalmond;
+}
+header{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 35px;
+}
+
+.navbar{
+    display: flex;
+    align-items:center ;
+    /* top and bottom */
+    padding: 10px;   
+}
+nav{
+   flex: 1;
+   text-align: right; 
+ 
+}
+nav >ul{
+    display: flex;
+    list-style-type:none ;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  
+}
+nav>ul>li{
+    display: inline-block;
+    margin-right: 30px;
+  
+    font-family: 'KoHo', sans-serif;
+    font-size:20px;
+}
+nav>ul>li:hover{
+    display: inline-block;
+    margin-right: 30px;
+  
+    font-family: 'KoHo', sans-serif;
+    font-size:21px;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 76, 5);
+    
+}
+p{
+    color:rgb(65, 62, 62);  
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Top right text */
+.top-right {
+    position: absolute;
+    top: 15px;
+    right: 290px;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(26, 25, 25);
+  }
+
+  .account:hover{
+   width: 32px;
+   height: 32px;
+  }
+  #logo:hover{
+      width: 163px;
+  }
+  .row{
+      display:flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .description{
+        margin: 70px 0;
+        background-color:rgb(243, 226, 184);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+  }
+  .WFH{
+   margin: 70px 0;
+    padding-right: 30px;
+    /* padding-left: 30px; */
+    background-color: rgb(41, 40, 36);
+  }
+  #heading-releases{
+      
+    font-family: 'KoHo', sans-serif;
+      color: rgb(63, 60, 60);
+      margin:0 auto 80px;
+      position: relative;
+      text-align: center;
+  }
+  .releases{
+      margin: 70px 0;
+  }
+  .col3{
+      flex-basis: 30%;
+      min-width: 300px;
+      margin-bottom: 30px;
+      font-family: 'Roboto', sans-serif;
+      transition: transform 0.5s;
+  }
+
+.col3>img{
+    width: 100%;
+}
+
+.small-container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+h4{
+    color: rgb(63, 60, 60);
+}
+
+.col3:hover{
+    transform: translateY(-5px);
+}
+
+
+.col4{
+    flex-basis: 30%;
+    min-width: 300px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.col2{
+    flex-basis: 50%;
+    min-width: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col2>img{
+    width:100%;
+}
+.col2>h1{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: rgb(255, 251, 251);
+}
+.col2>h2{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    color: rgb(255, 251, 251);
+}
+
+.footer{
+color: #8a8a8a;
+background-color:rgb(0, 0, 0);
+padding: 60px 0 20px;
+font-family: 'Roboto', sans-serif;
+}
+.footer >p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+ min-width: 250px;
+ margin-bottom: 20px;
+ text-align: center;
+}
+
+.footer-col-1{
+    flex-basis: 15%;
+    margin-left: 100px;
+}
+.footer-col-2{
+    flex:1;
+    text-align: center;
+}
+.footer-col-2>a>img{
+      width: 180px;
+      margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo>a>img{
+    width: 140px;
+}
+.footer>hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+
